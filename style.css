@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+body 
+{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        background: black;
+}
+
+/*start of navigation bar*/
+.navbar
+{
+        background: black;
+}
+li a:hover
+{
+        color: dimgrey !important;
+}
+.platform:hover 
+{
+        background-color: dimgrey;
+}
+/*end of navigation bar*/
+
+/*start of intro*/
+.head 
+{
+        margin-top: 75px;
+        height: 300px;
+        position: relative;
+}
+/*end of intro*/
+
+/* start of topsongs section*/
+
+.topsongs
+{
+        background: url(./keyboard.jpg);
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.song-img
+{
+        width: 30px;
+        height: 30px;
+}
+
+/*end of topsongs section*/
+
+/*start of artists section*/
+.topartists
+{        
+        height: 500px;
+}
+
+.artists-title
+{
+        background: url(./artists.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.artists 
+{
+        width: 250px;
+}
+
+.art-lists
+{
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        overflow: auto;
+        background: gray;
+        margin-left: -15px;
+}
+
+.art-img
+{
+        align-items: center;
+        object-position: center;
+        object-fit: contain;
+}
+/*end of artists section*/
+
+/*start of mv section*/
+.topmvs
+{
+        background: url(./mvcover.jpg);
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+.mvs-title
+{
+/*      background: url(./mvcover.jpg);*/
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;  
+}
+.mv-list
+{
+        background-color: rgba(0, 0, 0, 0.6);
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        overflow: auto;
+        margin-left: -12px;
+}
+
+.mv
+{
+        width: 500;
+        height: ;
+}
+
+/*end of mv section*/
+/*start of albums section*/
+.topalbums
+{
+        background: url(./desktop-wallpaper.png);
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.album-img
+{
+        width: 50px;
+        height: 50px;
+/*        margin-left: 15px;*/
+}
+/*end of albums section*/
+
+/*start of genres section*/
+.topgenres
+{
+        background: url(./topgenres.jpg);
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: auto;
+}
+.topgenres .card{
+        background-color: rgba(0, 0, 0, 0.8);
+        margin-left: 5px;
+        margin-bottom: 0px;
+}
+.topgenres .card-title{
+        margin-bottom: -12px;
+}
+.topgenres .title{
+        margin-top: 50px;
+}
+/*end of genres section*/
+
+.table
+{
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.6);
+}
+tbody tr:hover{
+        color: white;
+}
+.topsongs .title, .topalbums .title
+{
+        width: 104.5%;
+        height: 500px;
+        background-color: rgba(0, 0, 0, 0.6);        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}  	
+
+.title p
+{
+        text-shadow: black 3px 3px 2px;
+}
+
+.lists
+{
+
+        justify-content: center;
+        align-items: center;
+/*        display: flex;*/
+        height: 500px;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.card
+{
+        background: rgba(0, 0, 0, 0.6);
+
+}
+
+.card-title
+{
+        text-shadow: rgba(0, 0, 0, 1.0) 2px 2px 3px;
+}
+
+/*end of topalbums section*/
+
